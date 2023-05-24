@@ -1,0 +1,39 @@
+.desmatamento {
+  display: flex;
+
+  padding: 100px 200px;
+  gap: 50px;
+}
+
+.desmatamento__wrapper__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.desmatamento__title {
+  font-family: "Krona One", sans-serif;
+  font-size: 50px;
+
+  color: var(--color-text);
+}
+
+.desmatamento__title__image__img1 {
+  width: 50%;
+  height: 40%;
+}
+
+.desmatamento__title__image__img2 {
+  width: 50%;
+  height: 40%;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.desmatamento__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  margin-top: 50px;
+  color: var(--color-text);
+}

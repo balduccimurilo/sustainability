@@ -1,0 +1,77 @@
+.contact {
+  padding: 100px 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact__title {
+  font-family: "Krona One", sans-serif;
+  font-size: 50px;
+
+  color: var(--color-text);
+}
+
+.contact__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  color: var(--color-text);
+}
+
+.contact__form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+}
+
+.contact__form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__form__group label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.contact__form__group input {
+  padding: 10px;
+}
+
+.contact__form__group textarea {
+  resize: none;
+}
+
+.contact__form__button {
+  width: 100px;
+  padding: 10px 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text);
+  background-color: var(--card-bg);
+
+  border-radius: 10%;
+  cursor: pointer;
+  border: none;
+}
+
+.contact__form__button:hover {
+  background-color: var(--background-btn);
+  color: var(--color-btn);
+  transition: 0.2s;
+}

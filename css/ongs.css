@@ -1,0 +1,62 @@
+.ongs {
+  box-sizing: border-box;
+  display: flex;
+
+  padding: 50px 200px;
+  gap: 50px;
+}
+
+.ongs__title__wrapper {
+  max-width: 50%;
+}
+
+.ongs__title {
+  font-family: "Krona One", sans-serif;
+  font-size: 50px;
+
+  color: var(--color-text);
+}
+
+.ongs__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  margin-top: 50px;
+  color: var(--color-text);
+}
+
+.ongs__contact {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+  background-color: var(--card-bg);
+
+  padding: 0px 80px;
+  min-width: 50%;
+
+  justify-content: center;
+
+  border-radius: 30%;
+}
+
+.ongs__contact__title {
+  font-family: "Krona One", sans-serif;
+  font-size: 25px;
+}
+
+.ongs__contact ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ongs__contact__link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+  text-decoration: none;
+  color: var(--color-text);
+}
